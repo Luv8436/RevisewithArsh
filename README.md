@@ -15,3 +15,10 @@ Given an array of positive numbers, the task is to find the number of possible c
 <h3>Time complexity - O(n) </h3><br/> we are simply iterating over the array and for every index calculating the count.
 <h3>Space complexity - O(1) </h3><br/> we are not using any extra space.
 
+## Run Length Encoding 
+
+Given a string, Your task is to  complete the function encode that returns the run length encoded string for the given string.
+eg if the input string is “wwwwaaadexxxxxx”, then the function should return “w4a3d1e1x6″.
+<br/> <b>Approach</b>
+<h3> count=1<br/> Iterate and increment the count if current and previous character are same else set count=1 and do the same.</h3>
+
