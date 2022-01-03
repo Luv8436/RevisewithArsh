@@ -30,3 +30,9 @@ Ugly numbers are numbers whose only prime factors are 2, 3 or 5. The sequence 1,
 For example multiples of 2 are 2,4,6,8,10,12,14,16<br> don't consider 14 because 14 = 2*7 <br/> so we are finding the multiples of 2,3,5 which are multiples of 2,3,5 and that is what we store in dp array. <br/> we track the count of last multiple of 2,3,5 and every time we get the min we increase the count of that multiple.<br/>
 dp[] = [1->ptr2,ptr3,ptr5]  and min of (2*dp[ptr2],3*dp[ptr3],5*dp[ptr5]) is 2*dp[ptr2] so increase ptr2 by 1.  </h3>
 
+## Find the position of M-th item 
+
+M items are to be delivered in a circle of size N. Find the position where the M-th item will be delivered if we start from a given position K. Note that items are distributed at adjacent positions starting from K.
+<br/> <b>Approach</b>
+<h3> Take use of modulus operator </h3>
+
