@@ -42,3 +42,11 @@ A top secret message containing letters from A-Z is being encoded to numbers usi
 <br/> <b>Approach</b>
 <h3> Char at ith index can form encoding with itself and also form encoding with with its prev character if it is between 1 and 26 so for every index store its encoding in dp[] and encodings at ith index = dp[i-1]+dp[i-2] conditions applied. </h3>
 
+## Number following a pattern  
+
+Given a pattern containing only I's and D's. I for increasing and D for decreasing.
+Devise an algorithm to print the minimum number following that pattern.
+Digits from 1-9 and digits can't repeat.
+<br/> <b>Approach</b>
+<h3> Make an array and take one counter variable and print all numbers left before and increase counter when char is I else do nothing.  </h3>
+
