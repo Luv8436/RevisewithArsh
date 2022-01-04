@@ -36,3 +36,9 @@ M items are to be delivered in a circle of size N. Find the position where the M
 <br/> <b>Approach</b>
 <h3> Take use of modulus operator </h3>
 
+## Total Decoding Messages 
+
+A top secret message containing letters from A-Z is being encoded to numbers using the following mapping:
+<br/> <b>Approach</b>
+<h3> Char at ith index can form encoding with itself and also form encoding with with its prev character if it is between 1 and 26 so for every index store its encoding in dp[] and encodings at ith index = dp[i-1]+dp[i-2] conditions applied. </h3>
+
