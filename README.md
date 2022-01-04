@@ -50,3 +50,9 @@ Digits from 1-9 and digits can't repeat.
 <br/> <b>Approach</b>
 <h3> Make an array and take one counter variable and print all numbers left before and increase counter when char is I else do nothing.  </h3>
 
+## Find Missing And Repeating   
+
+Given an unsorted array Arr of size N of positive integers. One number 'A' from set {1, 2, …N} is missing and one number 'B' occurs twice in array. Find these two numbers.
+<br/> <b>Approach</b>
+<h3> Take xor of all elements of array and elements from 1 to N. the resulting xor is the xor of duplicate and the missing element and all other elements are cancelled with each other. find the rightmost set bit which will help them seperate into two groups.Each group xor has either duplicate elements or one of the missing and repeating element. So taking xor of these groups give you seperate missing and repeating elements. So iterate over the array and find the elements which is repeating and the other one is missing.  </h3>
+
