@@ -1,5 +1,5 @@
 public class minSubArrayLen {
-    public int minSubArrayLen(int target, int[] nums) {
+    public int minSubArrayLenSolution(int target, int[] nums) {
         int sum=0;
         int si=0;
         int minLength=Integer.MAX_VALUE;
