@@ -1,4 +1,4 @@
-public class UglyNumbers  {
+class UglyNumbers  {
     long getNthUglyNo(int n) {
         // code here
         long[] dp = new long[n];
