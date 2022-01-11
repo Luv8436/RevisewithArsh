@@ -1,17 +1,15 @@
-import java.util.*;
+
 public class DeleteNnodesafterMnodes {
     class Node {
     	int data;
-    	Node left;
-    	Node right;
+    	Node next;
     
     	Node(int data) {
     		this.data = data;
-    		left = null;
-    		right = null;
+    		this.next = null;
     	}
     }
-    static void linkdelete(Node head, int M, int N)
+    public static void linkdelete(Node head, int M, int N)
     {
         // your code here
         Node temp = head;
